@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="~{ /day60/header.html :: header }"></div>
+<div>
+  <button type="button" onclick="list()">명단보기 (콘솔)</button>
+  <button type="button" onclick="view()">명단보기</button>
+  <div class="view"></div>
+
+  <table border="1" id="container" >
+    
+    <tr>
+      <th>핸드폰 번호</th> <td>인원수</td>
+       </tr>
+
+
+  </table>
+ 
+</div>
+<script src="/day60/waiting.js"></script>
+</body>
+</html>
